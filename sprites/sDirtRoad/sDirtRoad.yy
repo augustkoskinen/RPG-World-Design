@@ -3,7 +3,7 @@
   "%Name":"sDirtRoad",
   "bboxMode":0,
   "bbox_bottom":95,
-  "bbox_left":32,
+  "bbox_left":0,
   "bbox_right":223,
   "bbox_top":0,
   "collisionKind":1,

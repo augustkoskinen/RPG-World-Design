@@ -10,7 +10,7 @@ CamH = camera_get_view_height(view_camera[0]);
 camera_set_view_pos(
 	view_camera[0],
 	lerp(camera_get_view_x(view_camera[0]), oPlayer.x - (CamW / 2), .05),
-	lerp(camera_get_view_y(view_camera[0]), oPlayer.y - (CamH / 2), .05)
+	lerp(camera_get_view_y(view_camera[0]), oPlayer.y - oPlayer.sprite_height/2 - (CamH / 2), .05)
 );
 
 x = camera_get_view_x(view_camera[0])
