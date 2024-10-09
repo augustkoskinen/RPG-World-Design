@@ -8,8 +8,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oLightPar","path":"objects/oLightPar/oLightPar.yy",},"propertyId":{"name":"lighty","path":"objects/oLightPar/oLightPar.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-64",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Environment",
+    "path":"folders/Objects/Environment.yy",
   },
   "parentObjectId":{
     "name":"oLightPar",

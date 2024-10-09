@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"sSandAnim2",
   "bboxMode":0,
-  "bbox_bottom":94,
-  "bbox_left":1,
-  "bbox_right":159,
+  "bbox_bottom":95,
+  "bbox_left":32,
+  "bbox_right":223,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -35,6 +35,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"b5728cae-a38a-4279-890e-7d4351fa1cdb","blendMode":0,"displayName":"default","isLocked":false,"name":"b5728cae-a38a-4279-890e-7d4351fa1cdb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"20e62226-819b-4f2b-a0de-87430230c578","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"20e62226-819b-4f2b-a0de-87430230c578","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sSandAnim2",
   "nineSlice":null,
@@ -146,5 +147,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":224,
+  "width":256,
 }

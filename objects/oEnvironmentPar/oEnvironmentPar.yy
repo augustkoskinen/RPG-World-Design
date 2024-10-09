@@ -8,8 +8,8 @@
   "name":"oEnvironmentPar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Pars",
+    "path":"folders/Objects/Pars.yy",
   },
   "parentObjectId":null,
   "persistent":false,
