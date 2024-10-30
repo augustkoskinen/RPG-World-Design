@@ -1,7 +1,7 @@
 {
   "$GMShader":"",
-  "%Name":"sGrayFilter",
-  "name":"sGrayFilter",
+  "%Name":"shLighting",
+  "name":"shLighting",
   "parent":{
     "name":"Shaders",
     "path":"folders/Shaders.yy",
