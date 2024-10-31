@@ -3,8 +3,8 @@ attribute vec3 in_Position;                  // (x,y,z)
 uniform vec2 u_pos; //light source positon
 const float len = 100000.;
 
-varying float tdis;
-varying float ldis;
+varying float tdis = 0;
+varying float ldis = 0;
 
 void main(){
     vec2 pos = in_Position.xy;
@@ -12,7 +12,7 @@ void main(){
 	vec2 dis = pos - u_pos;
 	float sdis = length(dis);
 	
-    if (in_Position.z > 0.){ //check if vertex requires repositioning
+    if (in_Position.z > 0.) { //check if vertex requires repositioning
         pos += dis/sdis * len; //repositioning the vertex with respect to the light position
 		tdis = in_Position.z-2;
 		ldis = 1.;
