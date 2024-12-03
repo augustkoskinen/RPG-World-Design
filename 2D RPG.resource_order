@@ -28,7 +28,6 @@
     {"name":"oLightPar","order":2,"path":"objects/oLightPar/oLightPar.yy",},
     {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"oSolidPar","order":1,"path":"objects/oSolidPar/oSolidPar.yy",},
-    {"name":"oSurfaceControl","order":1,"path":"objects/oSurfaceControl/oSurfaceControl.yy",},
     {"name":"shDrawShape","order":4,"path":"shaders/shDrawShape/shDrawShape.yy",},
     {"name":"shLighting","order":1,"path":"shaders/shLighting/shLighting.yy",},
     {"name":"shPlayerLighting","order":5,"path":"shaders/shPlayerLighting/shPlayerLighting.yy",},

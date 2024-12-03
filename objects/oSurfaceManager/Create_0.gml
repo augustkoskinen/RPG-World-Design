@@ -1,3 +1,5 @@
+application_surface_draw_enable(false);
+
 //surface_resize(application_surface,camera_get_view_width(view_camera[0]),camera_get_view_height(view_camera[0]))
 
 //Vertex format and buffer setup
@@ -10,7 +12,7 @@ vb = vertex_create_buffer();
 u_pos = shader_get_uniform(shLighting,"u_pos");
 u_pos2 = shader_get_uniform(shShadow,"u_pos");
 
-ydiff = shader_get_uniform(shDrawShape,"ydiff");
+drawShadow = shader_get_uniform(shDrawShape,"drawShadow");
 subtractOn = shader_get_uniform(shDrawShape, "subtractOn");
 
 uWDpixelDims =  shader_get_uniform(shPlayerLighting, "uWDpixelDims");
