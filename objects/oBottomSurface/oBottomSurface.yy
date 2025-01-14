@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oFirTree",
-  "eventList":[],
+  "%Name":"oBottomSurface",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oFirTree",
+  "name":"oBottomSurface",
   "overriddenProperties":[],
   "parent":{
-    "name":"Environment",
-    "path":"folders/Objects/Environment.yy",
+    "name":"Controls",
+    "path":"folders/Objects/Controls.yy",
   },
-  "parentObjectId":{
-    "name":"oSolidPar",
-    "path":"objects/oSolidPar/oSolidPar.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sFirTree",
-    "path":"sprites/sFirTree/sFirTree.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

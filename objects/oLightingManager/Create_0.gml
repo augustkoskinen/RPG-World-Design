@@ -9,6 +9,7 @@ vb = vertex_create_buffer();
 //Shader uniform variable setup
 u_pos = shader_get_uniform(shLighting,"u_pos");
 u_pos2 = shader_get_uniform(shShadow,"u_pos");
+u_flicker = shader_get_uniform(shLighting,"flicker");
 
 ydiff = shader_get_uniform(shDrawShape,"ydiff");
 subtractOn = shader_get_uniform(shDrawShape, "subtractOn");
@@ -16,4 +17,6 @@ subtractOn = shader_get_uniform(shDrawShape, "subtractOn");
 uWDpixelDims =  shader_get_uniform(shPlayerLighting, "uWDpixelDims");
 uniUV =  shader_get_uniform(shPlayerLighting, "uniUV");
 
-shaderSurface = noone;
+shaderSurfaceTop = noone;
+shaderSurfaceBelow = noone;
+shaderSurfaceGeneral = noone;
