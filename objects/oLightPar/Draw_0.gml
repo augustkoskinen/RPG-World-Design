@@ -21,20 +21,21 @@ if(flickerwait<0) {
 				oscilating = false;
 				flickerwait = random_range(0.5,10);
 			} else {
-				targetflicker = random_range(0.8,1);
+				targetflicker = 1;
 				flickerwait = random_range(flickerlow,flickerhigh);
 			}
 		} else {
-			targetflicker = prevtargetflicker+random_range(0.0625,0.125)
+			targetflicker = min(prevtargetflicker+random_range(0.0625,0.125),0.7)
 			prevtargetflicker = targetflicker;
 			flickerwait = random_range(flickerlow,flickerhigh)
 		}
 	}
 }
 
+
 if(!oscilating) {
 	targetflicker = 1;
 }
 
 flickerwait -= delta_time/1000000
-flickerstr = (targetflicker-flickerstr)*0.125 + flickerstr
+flickerstr = (targetflicker-flickerstr)*.125 + flickerstr

@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayer",
+  "%Name":"oImpoverishedMan",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oPlayer",
+  "name":"oImpoverishedMan",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objects/Player.yy",
+    "name":"NPCs",
+    "path":"folders/Objects/NPCs.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oNPCPar",
+    "path":"objects/oNPCPar/oNPCPar.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayerL",
-    "path":"sprites/sPlayerL/sPlayerL.yy",
+    "name":"sImpoverishedMan",
+    "path":"sprites/sImpoverishedMan/sImpoverishedMan.yy",
   },
   "spriteMaskId":null,
   "visible":true,

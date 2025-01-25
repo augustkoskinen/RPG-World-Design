@@ -1283,6 +1283,8 @@
     {"name":"inst_2BDFB9A2","path":"rooms/Overworld/Overworld.yy",},
     {"name":"inst_1D8A16F7","path":"rooms/Overworld/Overworld.yy",},
     {"name":"inst_1534CA36","path":"rooms/Overworld/Overworld.yy",},
+    {"name":"inst_52011176","path":"rooms/Overworld/Overworld.yy",},
+    {"name":"inst_6D04C03D","path":"rooms/Overworld/Overworld.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -2567,6 +2569,8 @@
         {"$GMRInstance":"v1","%Name":"inst_6F145B5C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F145B5C","objectId":{"name":"oFirTree","path":"objects/oFirTree/oFirTree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16359.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_4BE743E8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4BE743E8","objectId":{"name":"oFirTree","path":"objects/oFirTree/oFirTree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16320.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_7629EEB8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7629EEB8","objectId":{"name":"oFirTree","path":"objects/oFirTree/oFirTree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16352.0,"y":64.0,},
+        {"$GMRInstance":"v1","%Name":"inst_52011176","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_52011176","objectId":{"name":"oImpoverishedMan","path":"objects/oImpoverishedMan/oImpoverishedMan.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":14464.0,"y":1736.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6D04C03D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D04C03D","objectId":{"name":"oDialogueControl","path":"objects/oDialogueControl/oDialogueControl.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":192.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Cobble","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Cobble","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":512,"SerialiseWidth":704,"TileCompressedData":[
           -550,0,-154,-2147483648,-550,7,-154,-2147483648,-550,0,-154,-2147483648,-550,7,-154,-2147483648,-550,
@@ -2826,7 +2830,7 @@
           1,10,-20,18,3,1,19,17,-110,18,2,1,12,-568,-2147483648,2,11,3,-18,18,3,1,19,17,-109,18,3,1,2,12,-570,
           -2147483648,2,11,3,-16,18,3,1,12,10,-109,18,2,1,12,-573,-2147483648,2,11,3,-14,18,4,1,19,16,17,-106,
           18,4,1,2,2,12,-575,-2147483648,2,11,3,-11,18,4,1,2,19,17,-107,18,2,1,12,-579,-2147483648,2,11,3,-10,
-          18,3,8,0,10,-106,18,3,1,2,12,-581,-2147483648,2,11,3,-5,18,1,1,-3,2,3,0,4,17,-105,18,2,1,12,-584,-2147483648,
+          18,3,8,0,10,-106,18,3,1,2,12,-581,-2147483648,2,11,3,-5,18,1,1,-3,2,3,12,4,17,-105,18,2,1,12,-584,-2147483648,
           1,10,-3,18,3,1,2,12,-3,-2147483648,2,0,10,-104,18,3,1,2,12,-585,-2147483648,5,10,18,1,2,12,-6,-2147483648,
           2,11,3,-95,18,3,1,2,3,-3,18,3,1,2,12,-587,-2147483648,3,11,2,12,-8,-2147483648,2,4,17,-92,18,6,1,2,2,
           12,-2147483648,11,-3,2,1,12,-596,-2147483648,1,4,-3,16,1,17,-91,18,3,1,2,12,-603,-2147483648,3,4,16,

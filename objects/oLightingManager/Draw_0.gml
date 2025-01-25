@@ -38,7 +38,7 @@ draw_clear_alpha(c_black,0)
 surface_reset_target()
 
 with(oLightPar){
-	if(point_distance(x,y,oPlayer.x,oPlayer.y)<320) {
+	if(point_distance(x,y,oCam.x+camera_get_view_width(view_camera[0])/2,oCam.y+camera_get_view_height(view_camera[0])/2)<320) {
 		var _y = y
 		
 		/*
